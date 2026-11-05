@@ -16,7 +16,7 @@ Hepsi [Khronos glTF Sample Assets](https://github.com/KhronosGroup/glTF-Sample-A
 | tiffany-lamp.glb | StainedGlassLamp, © 2021 Wayfair (Eric Chadwick) | CC-BY 4.0 |
 | fish.glb | BarramundiFish, Microsoft | CC0 |
 
-Karakterler: Mixamo (Adobe) karakter ve animasyonları.
+Karakterler: Mixamo (Adobe) karakter ve animasyonları (Takım Elbiseli, Big Vegas, Baba = The Boss, Köylü Kız = Peasant Girl; ters takla, kafa üstü dönme, oturarak alkış ve gösterme dahil).
 
 ## Dokular (`assets/textures`)
 
