@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#0b0807">
+  <title>BelLOUtku</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&family=Inter:wght@400;600;800&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/style.css?v=17">
+</head>
+<body data-screen="menu">
+  <canvas id="canvas"></canvas>
+
+  <section id="menu" class="screen">
+    <div class="card menu-card">
+      <div class="crest"><span></span><em>Aile Meselesi</em><span></span></div>
+      <h1>BelLO<span>Utku</span></h1>
+      <p class="tag">Arkadaşlarınla 3D parti oyunu · en fazla 12 kişi</p>
+      <label>İsmin<input id="name" maxlength="16" placeholder="Örn. Uki" autocomplete="off"></label>
+      <button id="btn-host" class="big">Oda kur</button>
+      <div class="or"><span>ya da</span></div>
+      <div class="row">
+        <input id="code" maxlength="6" placeholder="ODA KODU" autocomplete="off">
+        <button id="btn-join">Katıl</button>
+      </div>
+      <p id="busy" hidden></p>
+    </div>
+  </section>
+
+  <section id="lobby" class="screen" hidden>
+    <div class="card wide">
+      <div class="lobby-head">
+        <div>
+          <small>Oda kodu</small>
+          <div id="room-code">-----</div>
+        </div>
+        <button id="btn-copy">Davet linkini kopyala</button>
+        <button id="btn-leave" class="ghost">Çık</button>
+      </div>
+      <div class="lobby-body">
+        <div>
+          <h3>Oyuncular</h3>
+          <ul id="players"></ul>
+          <h3>Karakterin</h3>
+          <div id="chars"></div>
+        </div>
+        <div>
+          <h3>Mod</h3>
+          <div id="modes"></div>
+          <div id="results" hidden></div>
+          <h3 class="chat-h">Sohbet</h3>
+          <div id="chat-slot"></div>
+        </div>
+      </div>
+      <button id="btn-start" class="big">Oyunu başlat</button>
+      <p id="wait" class="wait"></p>
+    </div>
+  </section>
+
+  <section id="game" class="screen" hidden>
+    <div id="hud"></div>
+    <div class="game-tools">
+      <button id="btn-chat" class="ghost small" title="Sohbet (Enter)" hidden></button>
+      <button id="btn-help" class="ghost small" title="Nasıl oynanır"></button>
+      <button id="btn-exit" class="ghost small">Çık</button>
+    </div>
+  </section>
+
+  <div id="chat" hidden>
+    <div id="chat-log"></div>
+    <form id="chat-form" autocomplete="off">
+      <input id="chat-input" maxlength="140" placeholder="Mesaj yaz..." enterkeyhint="send">
+      <button type="submit" title="Gönder">Gönder</button>
+    </form>
+  </div>
+  <div id="guide" hidden></div>
+  <button id="btn-mute" class="ghost small" title="Ses"></button>
+  <div id="rotate-hint">Daha rahat oynamak için telefonu yan çevir</div>
+  <div id="toast" hidden></div>
+  <script type="module" src="js/oyun-VTBG7J26.js"></script>
+</body>
+</html>
