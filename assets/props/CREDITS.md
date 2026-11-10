@@ -15,6 +15,8 @@ Hepsi [Khronos glTF Sample Assets](https://github.com/KhronosGroup/glTF-Sample-A
 | velvet-sofa.glb | GlamVelvetSofa, © 2021 Wayfair, LLC (Eric Chadwick) | CC-BY 4.0 |
 | tiffany-lamp.glb | StainedGlassLamp, © 2021 Wayfair (Eric Chadwick) | CC-BY 4.0 |
 | fish.glb | BarramundiFish, Microsoft | CC0 |
+| candle.glb | GlassHurricaneCandleHolder, © 2021 Wayfair, LLC (Eric Chadwick); Khronos/glTF logoları dokudan silindi | CC-BY 4.0 |
+| traffic-cone.glb | TrafficCone, © 2024 hinndia (sadece koni, zemin ve ışık çıkarıldı) | CC-BY 4.0 |
 
 Karakterler: Mixamo (Adobe) karakter ve animasyonları (Takım Elbiseli, Big Vegas, Baba = The Boss, Köylü Kız = Peasant Girl; ters takla, kafa üstü dönme, oturarak alkış ve gösterme dahil).
 
@@ -25,6 +27,8 @@ Karakterler: Mixamo (Adobe) karakter ve animasyonları (Takım Elbiseli, Big Veg
 | brick.webp, brick-bump.webp | three.js örnekleri: `examples/textures/brick_diffuse.jpg`, `brick_bump.jpg` (MIT) |
 | grass.webp | three.js örnekleri: `examples/textures/terrain/grasslight-big.jpg` (MIT) |
 | water-normals.webp | three.js örnekleri: `examples/textures/waternormals.jpg` (MIT) |
+| hardwood.webp, hardwood-rough.webp, hardwood-bump.webp | three.js örnekleri: `examples/textures/hardwood2_diffuse.jpg`, `hardwood2_roughness.jpg`, `hardwood2_bump.jpg` (MIT) |
+| brick-rough.webp | three.js örnekleri: `examples/textures/brick_roughness.jpg` (MIT) |
 
 ## Ses (`assets/audio`)
 
