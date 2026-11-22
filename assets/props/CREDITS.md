@@ -19,6 +19,7 @@ Hepsi [Khronos glTF Sample Assets](https://github.com/KhronosGroup/glTF-Sample-A
 | traffic-cone.glb | TrafficCone, © 2024 hinndia (sadece koni, zemin ve ışık çıkarıldı) | CC-BY 4.0 |
 
 Karakterler: Mixamo (Adobe) karakter ve animasyonları (Takım Elbiseli, Big Vegas, Baba = The Boss, Köylü Kız = Peasant Girl; ters takla, kafa üstü dönme, oturarak alkış ve gösterme dahil).
+Yürüme animasyonu (`assets/characters/anim-*.json`): three.js örneklerindeki Xbot modelinin Mixamo yürüyüşü, her karakterin iskeletine aktarıldı.
 
 ## Dokular (`assets/textures`)
 
